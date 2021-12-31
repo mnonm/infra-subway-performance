@@ -2,20 +2,16 @@ package nextstep.subway.station.application;
 
 import static java.util.stream.Collectors.*;
 
-import nextstep.subway.common.dto.PageDto;
-import nextstep.subway.station.domain.Station;
-import nextstep.subway.station.domain.StationRepository;
-import nextstep.subway.station.dto.StationRequest;
-import nextstep.subway.station.dto.StationResponse;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
-import java.util.stream.Collectors;
+import nextstep.subway.station.domain.Station;
+import nextstep.subway.station.domain.StationRepository;
+import nextstep.subway.station.dto.StationRequest;
+import nextstep.subway.station.dto.StationResponse;
 
 @Service
 @Transactional
